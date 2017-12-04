@@ -97,6 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* globals */
+
    html {
      box-sizing: border-box;
    }
@@ -111,6 +113,110 @@ textarea {
    img {
      max-width: 100%;
    }
+
+/* sidebar & nav */
+
+   .sidebar {
+     background: #fff;
+	   padding: 0 1em;
+	   width: 19em;
+	   height: 100%;
+	   position: fixed;
+	   line-height: 1;
+	   z-index: 1;
+   }
+
+   .sidebar-wrap {
+     margin: 14em 0 0 1.5em;
+   }
+
+   .logo {
+     width: 60%;
+     padding: 0 0 2em 0;
+   }
+
+   .sidebar ul {
+     text-transform: uppercase;
+     font-size: .85em;
+     list-style: none;
+     line-height: 3em;
+     padding: 0;
+   }
+
+   .sidebar a {
+     display: block;
+     text-decoration: none;
+   }
+
+   .sidebar a:link {
+     color: #000;
+   }
+
+   .sidebar a:hover {
+     color: #000;
+   }
+
+   .sidebar a:visited {
+     color: #000;
+   }
+
+   .social-media {
+     padding: 2em 0 0 0;
+   }
+
+   .social-media i {
+     color: #fff;
+     background-color: #a0a0a0;
+     border: none;
+     border-radius: 50%;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: .5em;
+     padding: .75em;
+   }
+
+/* main content */
+
+   .feature {
+     color: #fff;
+     position: relative;
+     margin: 4em 4em 0 19em;
+     font-weight: bold;
+   }
+
+   .feature img {
+     display: block;
+   }
+
+   .featured-work {
+     position: relative;
+     margin: 4em 4em 0 19em;
+     width: 33%;
+   }
+
+   .company-info {
+     position: relative;
+     margin: 0 0 0 19em;
+     padding: 1em;
+   }
+
+   .company-info img {
+     width: 40%;
+   }
+
+
+/* footer */
+
+  .page-footer {
+    clear: both;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 0 0 19em;
+    padding: 3em 0 5em 0;
+    text-align: center;
+    color: #707070;
+    font-weight: 100;
+  }
 
 
 
